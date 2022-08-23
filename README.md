@@ -1,0 +1,3 @@
+# MakiLib-PlayerStorageToInventory
+
+# あ
