@@ -1,4 +1,3 @@
 # MakiLib-PlayerStorageToInventory
-
-## てすと
+storageに保存したアイテムをプレイヤーに装備させるライブラリ
 
