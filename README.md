@@ -38,3 +38,6 @@ effect clear minecraft:invisibility
 # 3.storageをリセットする
 data remove storage storage_to_player: value
 ```
+
+## 注意
+function storage_to_player:pasteを実行した際インベントリにアイテムがあると保存したアイテムが上書きします
