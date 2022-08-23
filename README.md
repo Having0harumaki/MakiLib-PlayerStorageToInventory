@@ -1,5 +1,5 @@
 # MakiLib-PlayerStorageToInventory
-storageに保存したインベントリをプレイヤーに装備させるライブラリ
+ストレージに保存したインベントリをプレイヤーに装備させるライブラリ
 
 > **対応バージョン**
 
@@ -8,7 +8,7 @@ storageに保存したインベントリをプレイヤーに装備させるラ�
 ## 使い方
 
 ```mcfunction
-# プレイヤーのインベントリをstorageに保存する
+# プレイヤーのインベントリをストレージに保存する
 data modify storage storage_to_player: value set from entity <対象のプレイヤー> Inventory
 # プレイヤーに装備させたいときにfunctionを実行する
 execute as <対象のプレイヤー> run function storage_to_player:paste
@@ -29,13 +29,13 @@ clear @s
 effect give @s minecraft:invisibility 999999 0 true
 
 # / 実行者の透明化を解除してアイテムを戻す
-# 1.保存したインベントリをstorageに移行する
+# 1.保存したインベントリをストレージに移行する
 function #oh_my_dat:please
 data modify storage storage_to_player: value set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].invisibility
 function storage_to_player:paste
 # 2.透明エフェクトを解除する
 effect clear minecraft:invisibility
-# 3.storageをリセットする
+# 3.ストレージをリセットする
 data remove storage storage_to_player: value
 ```
 
