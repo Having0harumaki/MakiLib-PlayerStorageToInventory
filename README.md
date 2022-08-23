@@ -17,7 +17,7 @@ execute as <対象のプレイヤー> run function storage_to_player:paste
 赤石愛様作成の[OhMyDat](https://github.com/Ai-Akaishi/OhMyDat)の使用を推奨します
 
 ## 使用例(OhMyDatを使用した場合)
-**防具を表示させずプレイヤーを透明化にする**
+**防具を表示させずにプレイヤーを透明化にする**
 ```mcfunction
 # / 実行者を透明にしてアイテムを削除する
 # 1.インベントリをoh my datで保存する
